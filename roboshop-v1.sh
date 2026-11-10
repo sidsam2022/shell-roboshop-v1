@@ -5,7 +5,7 @@ instance_type="t3.micro"
 domain_name="sidsam.space"
 hosted_zone_id="Z06888013STZLT6KB0E37"
 
-for instance $@ 
+for instance in $@ 
 do
     echo "creating instance: $instance" 
 
